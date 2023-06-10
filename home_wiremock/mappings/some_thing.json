@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/some/thing"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "pole1": "wartosc1"
+    },
+    "headers": {
+      "Content-Type": "text/plain"
+    }
+  }
+}
+

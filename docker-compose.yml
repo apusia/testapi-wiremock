@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  wiremock:
+    image: "wiremock/wiremock:2.32.0"
+    ports:
+      - "5050:8080"
+    volumes:
+      - "./home_wiremock:/home/wiremock"
