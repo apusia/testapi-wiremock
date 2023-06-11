@@ -6,4 +6,4 @@ services:
     ports:
       - "5050:8080"
     volumes:
-      - "./home_wiremock:/home/wiremock"
+      - "./src/main/resources/home_wiremock:/home/wiremock"
