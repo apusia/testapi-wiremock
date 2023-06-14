@@ -1,2 +1,5 @@
 rootProject.name = 'testapi-wiremock'
+include 'wiremock-based'
+include 'spring-based'
+include 'mocks'
 
