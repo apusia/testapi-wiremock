@@ -34,7 +34,7 @@ public class Main {
     }
 
     private static void usersId(WireMockServer wireMockServer) {
-        JsonNode jsonBody = OBJECT_MAPPER.valueToTree(User.generateUser(0));
+        JsonNode jsonBody = OBJECT_MAPPER.valueToTree(User.generateUser());
 
         wireMockServer.stubFor(
                 get(

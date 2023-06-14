@@ -19,6 +19,14 @@ public class User {
 //        return generateUser();
 //    }
 
+    public static User generateUser() {
+        return User.builder()
+                .name(faker.name().firstName())
+                .surname(faker.name().lastName())
+                .books(BookPreview.generateBooks())
+                .build();
+    }
+
     public static User generateUser(int id) {
         return User.builder()
                 .id(id)
